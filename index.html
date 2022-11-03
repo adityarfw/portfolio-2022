@@ -17,7 +17,7 @@
   <body>
     <nav>
       <div class="logo">
-        <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="user" />
+        <img src="https://randomuser.me/api/portraits/men/76.jpg" alt="user" />
       </div>
       <ul>
         <li><a href="#">Home</a></li>
@@ -40,7 +40,7 @@
       <button class="cta-btn" id="open">Sign Up</button>
     </header>
 
-    <div>
+    <div class="container">
       <h2>What is this landing page about?</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
@@ -51,6 +51,12 @@
         possimus consequatur necessitatibus harum quod quibusdam optio animi
         consequuntur laudantium.
       </p>
+      <h2>Projects</h2>
+      <ul>
+        <li>Webpage 1</li>
+        <li>Webpage 2</li>
+        <li>Webpage 3</li>
+      </ul>
     </div>
 
     <div class="modal-container" id="modal">
@@ -60,36 +66,48 @@
         </button>
         <div class="modal-header">
           <h3>Sign Up</h3>
-          <div class="modal-content">
-            <p>Register with us</p>
-            <form class="modal-form">
-              <div>
-                <label for="name">Name</label>
-                <input type="text" id="name" placeholder="Enter Name" />
-              </div>
-              <div>
-                <label for="email">Email</label>
-                <input type="email" id="email" placeholder="Enter Email" />
-              </div>
-              <div>
-                <label for="password">Password</label>
-                <input
-                  type="password"
-                  id="passowrd"
-                  placeholder="Enter Password"
-                />
-              </div>
-              <div>
-                <label for="password2">Confirm Password</label>
-                <input
-                  type="password"
-                  id="password2"
-                  placeholder="Confirm Password"
-                />
-              </div>
-              <input type="submit" value="Submit" class="submit-btn" />
-            </form>
-          </div>
+        </div>
+        <div class="modal-content">
+          <p>Register with us</p>
+          <form class="modal-form">
+            <div>
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="Enter Name"
+                class="form-input"
+              />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter Email"
+                class="form-input"
+              />
+            </div>
+            <div>
+              <label for="password">Password</label>
+              <input
+                type="password"
+                id="passowrd"
+                placeholder="Enter Password"
+                class="form-input"
+              />
+            </div>
+            <div>
+              <label for="password2">Confirm Password</label>
+              <input
+                type="password"
+                id="password2"
+                placeholder="Confirm Password"
+                class="form-input"
+              />
+            </div>
+            <input type="submit" value="Submit" class="submit-btn" />
+          </form>
         </div>
       </div>
     </div>
